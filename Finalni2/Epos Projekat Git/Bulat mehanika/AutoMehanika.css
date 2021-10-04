@@ -1,0 +1,366 @@
+p{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 22px;
+}
+
+a:hover{
+    color: #8e0d0d
+}
+
+a:visited{
+    text-decoration: none;
+    color: #201e1e;
+}
+
+#divPocetne{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+#header{
+    opacity: 0.97;
+    z-index: -2;
+    top:-0.5px;
+    background-color: rgb(240, 238, 238);
+    text-align: center;
+    position: fixed;
+    height: 13%;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#divLogo{
+    opacity: 1;
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+
+#logo{
+    padding: 2px 2px 2px 2px;
+    height: 100%;
+    width: 90%;
+}
+
+#divKontakt{
+    opacity: 1;
+    margin-top: 20px;
+    margin-right: 35px;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divUsluge{
+    display: inline;
+    opacity: 1;
+    margin-top: 20px;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#arrowUsluge{
+    position: relative;
+    margin-bottom: 2.5px;
+    height: 8px;
+    width: 16px;
+}
+
+#dropdownMenu{
+    display: none;
+    z-index: 15;
+    border-radius: 4px;
+    border-top: 3px solid #8e0d0d;
+    bottom: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#autoMehanika:hover{
+    
+    color: #8e0d0d;
+}
+
+#autoLimarija:hover{
+    
+    color: #8e0d0d;
+}
+
+#divONama{
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divPocetna{
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+par{
+    font-size: 22px;
+}
+
+.par:hover{
+    
+    color: #8e0d0d;
+}
+
+#slikaHeader{
+    padding-bottom:30px;
+    z-index: -10;
+    position: absolute;
+    top: 13%;
+    height: 70%;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#slikaHeader2{
+    height: 100%;
+    width: 100%;
+}
+
+#footer{
+    padding-bottom: 6px;
+     position: absolute; 
+    bottom: -100%;
+    height:7%;
+    width: 100%;
+    background-color: #201e1e;
+    color: white;
+    text-align: center;
+}
+
+#pFooter{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+/* #footer{
+    padding-bottom: 1px; 
+    position: absolute;
+    top: 408%; 
+    height:7%;
+    width: 100%;
+    background-color: #201e1e;
+    color: white;
+    text-align: center;
+}
+
+#pFooter{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}   */
+
+
+
+
+#Section{
+
+    top: 100%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+
+    z-index: -10;
+}
+
+
+
+#divAutoMehanika{
+    position: relative;
+    height: 20%;
+    width: 30%;
+    left: 33%;
+    padding: 40px;
+}
+
+#h1AutoMehanika{
+    font-size: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #2e2929;
+    opacity: 1;
+}
+
+#slikaUnderline{
+    position: relative;
+    top:-20%;
+    width: 400px;
+    height: 35px;
+    left:15%;
+}
+
+#divSaUslugama{
+    display: inline-block;
+    position: relative;
+    
+    width: 80%;
+    left: 10%;
+    height: 69%;
+
+}
+
+#usluge{
+    position: relative;
+    margin-bottom: 30px;
+    float: left;
+    width: 100%;
+    height: 40%;
+}
+
+#slika1{
+    position: relative;
+    
+    float: left;
+    width: 20%;
+    height: 85%;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+#naslov_i_dugme{
+    position: relative;
+    
+    float: left;
+    width: 30%;
+    height: 85%;
+    margin: 15px;
+}
+
+#h1Usluge{
+    margin-top: 45px;
+    color: #201e1e;
+    text-align: center;
+    font-size: 26px
+}
+
+#btnDetaljnije1{
+    display: inline;
+    padding-top: 0;
+    position: relative;
+    left: 30%;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #8e0d0d;
+    color: #8e0d0d;
+    font-size: 22px;
+    font-weight: 530;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#arrow1{
+    position: relative;
+    display: none;
+    height: 18px;
+    width: 11px;
+    top: 1%;
+    margin-left: 8px;
+}
+
+#btnDetaljnije2{
+    display: inline;
+    padding-top: 0;
+    position: relative;
+    left: 30%;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #8e0d0d;
+    color: #8e0d0d;
+    font-size: 22px;
+    font-weight: 530;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#btnDetaljnije1:checked{
+    border: 2px solid #8e0d0d;
+}
+
+
+#btnDetaljnije2:visited{
+    border: 2px solid #8e0d0d;
+}
+
+#btnDetaljnije3{
+    display: inline;
+    padding-top: 0;
+    position: relative;
+    left: 30%;
+    margin-top: 20px;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #8e0d0d;
+    color: #8e0d0d;
+    font-size: 22px;
+    font-weight: 530;
+    text-align: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+#btnDetaljnije3:visited{
+    border: 2px solid #8e0d0d;
+}
+
+
+#arrow2{
+    position: relative;
+    display: none;
+    height: 18px;
+    width: 11px;
+    top: 1%;
+    margin-left: 8px;
+}
+
+#arrow3{
+    position: relative;
+    display: none;
+    height: 18px;
+    width: 11px;
+    top: 1%;
+    margin-left: 8px;
+}
+
+
+
+#divDetaljnije{
+    position: relative;
+    display: none;
+    float: left;
+    width: 43%;
+    height: 85%;
+    margin: 15px;
+}
+
+#paragrafUsluge{
+    position: absolute;
+    top: -5%;
+    margin: 25px;
+    text-align: center;
+    font-size: 17px;
+}

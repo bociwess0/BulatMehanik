@@ -1,0 +1,89 @@
+
+h1, h2 , p{
+    color: #e7dfde;
+    font-family: 'Poppins';
+    
+}
+
+
+#divFade{
+    position: relative;
+    animation: fadeIn 2s;
+    z-index: -1;
+}
+
+
+
+
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+
+#nastavite{
+    z-index: 2;
+    animation: fadeIn 2s;
+    background-color:#2b2828;
+    border: none;
+    color: #e7dfde;
+    border-radius: 10px;
+    top: 45%;
+    left: 35%;
+    font-family: 'Poppins';
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    height: 70px;
+    width: 120px;
+    cursor: pointer;
+}
+
+#nastavite:hover{
+    background-color: #3f3d3b;
+}
+
+#izlaz{
+    z-index: 2;
+    animation: fadeIn 2s;
+    background-color:#2b2828;
+    border: none;
+    color:#e7dfde;
+    border-radius: 10px;
+    top: 45%;
+    left: 50%;
+    font-family: 'Poppins';
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    height: 70px;
+    width: 120px;
+    cursor: pointer;
+}
+
+#dobrodosli{
+    animation: fadeIn 2s;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left:25%;
+    font-size: 280%
+}
+
+#izlaz:hover{
+    background-color: #3f3d3b;
+}
+
+#slika1{
+    height: 100%;
+    width: 100%;
+}
+
+
+

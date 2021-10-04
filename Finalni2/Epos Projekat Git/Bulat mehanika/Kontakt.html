@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="Slike/logo2.png" type="image/gif" sizes="50x50">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css1.css">
+    <link rel="stylesheet" href="Kontakt.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body style="background-color: rgb(235, 235, 235);">
+    <div id="divPocetne">
+        <div id="header">
+            <div id="divLogo">
+                <img src="Slike/logo2.png" alt="" id="logo" style="cursor: pointer;">
+            </div>
+            <div id="divKontakt">
+                <p class="par" style="color: #2e2929;"><a href="Kontakt.html" style="text-decoration: none;">Kontakt</a>
+                </p>
+            </div>
+            <div id="divUsluge">
+                <p class="par" style="color: #2e2929;cursor: pointer;">Usluge
+                    <img src="Slike/arrowUsluge.png" alt="" id="arrowUsluge">
+                </p>
+                <div id="dropdownMenu">
+                    <div id="autoMehanika"
+                        style="height: 50%; text-align: center; font-size: 18px; font-family: 'Poppins'; padding-top: 10px; background-color: rgb(255, 255, 255); cursor: pointer;">
+                        Auto mehanika</div>
+                    <div id="autoLimarija"
+                        style="height: 50%; text-align: center; font-size: 18px; font-family: 'Poppins'; padding-top: 10px; background-color: rgb(255, 255, 255); cursor: pointer;">
+                        Auto limarija</div>
+                    <div id="autoElektrika"
+                        style="height: 50%; text-align: center; font-size: 18px; font-family: 'Poppins'; padding-top: 10px; background-color: rgb(255, 255, 255); cursor: pointer;">
+                        Auto elektrika</div>
+                </div>
+            </div>
+
+            <div id="divONama" style="margin-top: 20px; opacity: 1;">
+                <p class="par" style="color: #2e2929;"><a href="oNama.html" style="text-decoration: none;">O Nama</a>
+                </p>
+            </div>
+
+            <div></div>
+
+            <div id="divPocetna" style="margin-top: 20px; opacity: 1;">
+                <p class="par" style="color: #2e2929;"><a href="PocetnaBezIntro.html"
+                        style="text-decoration: none;">Početna</a></p>
+            </div>
+
+        </div>
+
+        <div id="slikaHeader" style="height: 90%;">
+            <img src="Slike/headerBackground.jpg" alt="" id="slikaHeader2">
+        </div>
+
+
+        <div id="Section">
+            <div id="divKontakt2">
+                <h1 id="h1Kontakt">Kontakt</h1>
+                <img src="Slike/underline.png" alt="" id="slikaUnderline">
+            </div>
+            <div id="TekstIForma">
+                <div id="tekst">
+                    <div class="tekst" id="divTekst1">
+                        <h2 class="naslovi">Informacije</h2>
+                        <p>Tel: 063/31 37 31 <br>
+                            Fax: 011/ 22 60 546 <br>
+                            E-mail: <a href="mailto:bulatmehanik@gmail.com"
+                                style="text-decoration: none; color: #8e0d0d;" id="link">bulatmehanik@gmail.com</a> <br>
+                        </p>
+                    </div>
+                    <div class="tekst" id="divTekst2">
+                        <h2 class="naslovi">Radno vreme</h2>
+                        <p>Pon - Pet: 8 - 17h <br>
+                            Subota: 8 - 16h <br>
+                            Nedelja: ne radimo <br></p>
+                    </div>
+                    <div class="tekst" id="divTekst3">
+                        <h2 class="naslovi">Adresa</h2>
+                        <p> Adama Bogosavljevića 2 <br>
+                            Novi Beograd, Ledine <br>
+                        </p>
+                    </div>
+                </div>
+                <div id="forma" onsubmit="return false">
+                    <p>Za više informacija možete nam se obratite ovde.</p>
+                    <form action="">
+                        <input id="ime" type="text" placeholder="Ime">
+                        <input style="margin-left: 25px;" id="prezime" type="text" name="prezime" placeholder="Prezime"
+                            class="1">
+                        <input type="text" id="email" placeholder="Email">
+                        <input type="text" id="naslov" placeholder="Naslov">
+                        <textarea id="poruka" placeholder="Poruka"></textarea>
+                        <div id="dugmeIpar">
+                            <div id="divDugme" style="float: right; width: 30%; height: 100%;">
+                                <button id="dugmeForma">POŠALJI</button>
+                            </div>
+                            <div id="validationText" style="font-family: 'Poppins'; font-size: 20px; color: #8e0d0d;">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="kontakt-mapa">
+            <div class="container" style=" height: 300px; width: 100%; position: absolute;top: 205%;">
+                <div class="rowONama">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21464.846816728714!2d20.323162518224855!3d44.79979893793174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a6f2e1b6f1625%3A0xadfade10332e847a!2sAdama%20Bogosavljevi%C4%87a%202%2C%20Beograd!5e0!3m2!1sen!2srs!4v1607557878417!5m2!1sen!2srs"
+                        width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="footer">
+            <p id="pFooter">©2020 <b style="font-weight:530;">Bulat Mehanik.</b> All rights reserved. | Powered by <b
+                    style="font-weight: 530;" style="top: 100%">Bogdan, Nikola and Marta</b></p>
+        </div>
+
+    </div>
+    <script src="javaScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,511 @@
+ #sve{
+    top: 840px;
+     font-family: 'Poppins'; 
+    font-size: larger;
+     position: relative; 
+    /* min-height: 100vh; */
+} 
+
+
+
+h1{
+    color: #2e2929;
+    text-align: center;
+    /* text-shadow: 3px 3px 8px  #c01313; */
+    font-family: 'Poppins'; 
+    margin-bottom: 0;
+    
+}
+  
+#prviParagraf{
+   text-align: center;
+   font-size: larger;
+ 
+}
+#kratkaIstorijaDiv{
+    margin-top: 150px;
+} 
+#kratkaIstorijaSlika{
+    position: relative;
+    margin-left: 300px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 30px;
+    box-shadow: 0px 2px 18px 1px #8e0d0d;
+    z-index: 2;
+    
+}
+#kratkaIstorijaParagraf{
+    font-size: larger;
+    margin-right: 400px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+#uslugaParagraf{
+    font-size: larger;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 100px;
+}
+#uslugaSlika{
+    position: relative;
+    display: block;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 18px 1px #8e0d0d;
+    z-index: 2;
+} 
+
+/* .galerija{
+    position: relative;
+    display: block;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 18px 1px #8e0d0d;
+    z-index: 2;
+}
+.fotorama{
+     position: relative;
+    display: block;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 2px 18px 1px #8e0d0d;
+    z-index: 2; 
+    height: 10%;
+} */
+/* .fotorama{
+    margin-top: 1000px;
+}     */
+
+
+
+#oVlasnikuDiv{
+    margin-top: 40px;
+}
+
+
+
+#divoVlasnikuSlika{
+    float: right;
+    width: 15%;
+    margin-right: 340px;
+}
+
+#oVlasnikuSlika{
+    margin: 50px;
+    margin-right: 25px;
+    position: relative;
+    float:right;
+    width: 250px;
+    height: 280px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 18px 1px #8e0d0d;
+    z-index: 2;
+}
+
+#divoVlasnikuParagraf{
+    width: 52%;
+    margin-left: 250px;
+}
+
+
+
+#oVlasnikuParagraf{
+    float: left;
+    font-size: larger;
+    margin-top: 70px;
+}
+#slikaUnderline{
+    
+    position: relative;
+     top:-5%;  
+    width: 28%;
+    left:36%;
+    margin-top: 0;
+}
+p{
+    color: black;
+    font-family: 'Poppins';
+    /* font-size: 22px; */
+} 
+ /* #uslugaDiv{
+   position: relative;
+  z-index: 1;
+}
+#uslugaDiv::after{
+    content: "";
+    background-image: url("Slike/PozadinaProba2.webp");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.1;
+    z-index: 0;
+
+}  */
+
+/* #DrugiDeoDiv{
+    position: relative;
+    z-index: 1;
+}
+#DrugiDeoDiv::after{
+    content: "";
+    background-image: url("pocetnaPozadina2.png");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.3;
+    z-index: 0;
+    margin-bottom: 0;
+} */
+
+/* #UslugaPrviDeo{
+    position: relative;
+    z-index: 1;
+}
+#UslugaPrviDeo::after{
+    content: "";
+    background-image: url("pocetnaPozadina.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.2;
+    z-index: 0;
+    margin-bottom: 0;
+} */
+
+
+
+
+ #PoslePocetneSlike{
+    position: absolute;
+    z-index: 1;
+}
+#PoslePocetneSlike::after{
+    content: "";
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.2;
+    z-index: -1;
+    margin-bottom: 0;
+}   
+
+
+
+
+
+
+  /* #oVlasnikuDiv{
+    position: relative;
+    z-index: 1;
+}
+#oVlasnikuDiv::after{
+    content: "";
+    background-image: url("Slike/ZaOVlasniku.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity:0.2;
+    z-index: 0;
+    margin-bottom: 0;
+}    */
+
+/* #divPocetne{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: none;
+}
+
+#header{
+     z-index: -2;
+    position: absolute;
+    height: 12%;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+ #divLogo{
+    float: left;
+    height: 100%;
+    width: 10%;
+} 
+
+
+/* #logo{
+    padding: 2px 2px 2px 2px;
+    height: 50%;
+    width: 90%;
+} */
+/* #divPocetne{
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    
+    display: none;
+
+    
+} */
+
+
+a:visited{
+    text-decoration: none;
+    color: #201e1e;
+}
+
+#slikaHeader2{
+    padding-bottom:50px;
+    z-index: -102;
+    position: absolute; 
+    top: 13%;
+    height: 800px;
+    width: 100%;
+    display: block; 
+    box-sizing: border-box;
+}
+
+#divKontakt{
+    margin-right: 35px;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divUsluge{
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divONama{
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divPocetna{
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+} 
+
+
+
+ /* #header{
+    
+   height: 12%;
+   width: 100%;
+   display: block;
+   box-sizing: border-box;
+}  */
+
+#header{
+    opacity: 0.97;
+    z-index: -2;
+    top:-0.5px;
+    background-color: rgb(240, 238, 238);
+    text-align: center;
+    position: fixed;
+    height: 13%;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+#divLogo{
+    opacity: 1;
+    float: left;
+    height: 100%;
+    width: 10%;
+}
+
+#logo{
+    cursor: pointer;
+    padding: 2px 2px 2px 2px;
+    height: 100%;
+    width: 90%;
+}
+
+#divKontakt{
+    cursor: pointer;
+    opacity: 1;
+    margin-top: 20px;
+    margin-right: 35px;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divUsluge{
+    cursor: pointer;
+    display: inline;
+    opacity: 1;
+    margin-top: 20px;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#arrowUsluge{
+    position: relative;
+    margin-bottom: 2.5px;
+    height: 8px;
+    width: 16px;
+}
+
+#dropdownMenu{
+    display: none;
+    z-index: 15;
+    border-radius: 4px;
+    border-top: 3px solid #8e0d0d;
+    bottom: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#autoMehanika:hover{
+    
+    color: #8e0d0d;
+}
+
+#autoLimarija:hover{
+    
+    color: #8e0d0d;
+}
+
+#divONama{
+    cursor: pointer;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#divPocetna{
+    cursor: pointer;
+    float: right;
+    width: 8%;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+.par:hover{
+    
+    color: #8e0d0d;
+}
+
+.logoNaStranici{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+} 
+#kratkaIstorija{
+    margin-top: 100px;
+    
+}
+ #UslugaNaslov{
+    margin-top:50px ;
+} 
+#naslovStoZajebava{
+    margin-bottom: 50px;
+} 
+  #footer{
+    padding-bottom: 6px; 
+    position: absolute;
+    bottom: -318%; 
+    height:7%;
+    width: 100%;
+    background-color: #201e1e;
+    color: white;
+    text-align: center;
+}
+
+#pFooter{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}  
+#arrowUsluge{
+    position: relative;
+    margin-bottom: 2.5px;
+    height: 8px;
+    width: 16px;
+}
+
+#dropdownMenu{
+    display: none;
+    z-index: 15;
+    border-radius: 4px;
+    border-top: 3px solid #8e0d0d;
+    bottom: 10px;
+    position: relative;
+    height: 80px;
+}
+
+#autoMehanika:hover{
+    
+    color: #8e0d0d;
+}
+
+#autoLimarija:hover{
+    
+    color: #8e0d0d;
+}
+
+#autoElektrika:hover{
+    
+    color: #8e0d0d;
+}
+.par:hover{
+    
+    color: #8e0d0d;
+}
+/* h1:hover{
+    color: blue;
+}
+#uslugaParagraf:hover{
+    color: chartreuse;
+} */
